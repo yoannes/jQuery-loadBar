@@ -57,6 +57,9 @@ var loadBar = {
       else if (action == "hide") {
          this.barOn = null;
          $("#canvasBar").css("display", "none");
+
+         // BELOW IS OPTIONAL TO DISABLE ALL BUTTONS ON DOCUMENT. COMMENT IF UNNEEDED
+         $(".btn").prop("disabled", false);
       }
    },
    run: function () {
