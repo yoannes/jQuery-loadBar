@@ -1,7 +1,7 @@
 # loadBar
 Small loading bar on top of screen
 
-![alt tag](http://ingate.cc/img/bar.png)
+![alt tag](https://github.com/yoannes/jQuery-loadBar/blob/master/bar_example.png)
 
 
 # How to use
