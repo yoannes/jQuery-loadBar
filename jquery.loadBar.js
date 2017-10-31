@@ -32,7 +32,7 @@ var loadBar = {
       $('body').append(
          $("<canvas></canvas>", {
             "id": "canvasBar",
-            "style": "position: fixed; top: 0; width: 100%; height: "+ this.barHeight +"px; z-index: 9999;"
+            "style": "position: absolute; top: 0; width: 100%; height: "+ this.barHeight +"px; z-index: 9999;"
          })
       );
 
